@@ -180,3 +180,4 @@ By default all signups create regular users. To make an admin:
 - Dark mode toggle with ThemeContext
 - API key is never exposed to the frontend
 # stockMarket
+# stockMarket
