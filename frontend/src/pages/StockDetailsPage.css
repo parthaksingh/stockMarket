@@ -1,0 +1,109 @@
+.stock-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.center-msg {
+  text-align: center;
+  padding: 60px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.center-msg.error {
+  color: #e74c3c;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  width: 380px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .modal {
+  background: #1e1e2f;
+  color: white;
+}
+
+.modal h3 {
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+}
+
+.modal .form-group {
+  margin: 16px 0;
+}
+
+.modal .form-group label {
+  display: block;
+  margin-bottom: 6px;
+  color: #666;
+}
+
+.modal .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.dark-mode .modal .form-group input {
+  background: #2a2a3e;
+  border-color: #444;
+  color: white;
+}
+
+.total-cost {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.dark-mode .total-cost {
+  color: #aaa;
+}
+
+.trade-msg {
+  color: #27ae60;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.modal-actions button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.buy-btn { background: #27ae60; color: white; }
+.sell-btn { background: #e74c3c; color: white; }
+.cancel-btn { background: #ecf0f1; color: #333; }

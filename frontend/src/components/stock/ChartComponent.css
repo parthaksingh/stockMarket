@@ -1,0 +1,22 @@
+.chart-container {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+}
+
+.dark-mode .chart-container {
+  background: #1e1e2f;
+  color: white;
+}
+
+.chart-container h4 {
+  margin-bottom: 16px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.dark-mode .chart-container h4 {
+  color: #aaa;
+}

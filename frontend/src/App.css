@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+/* Light mode */
+.light-mode {
+  background-color: #f5f6fa;
+  color: #1a1a2e;
+  min-height: 100vh;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #12121e;
+  color: white;
+  min-height: 100vh;
+}
