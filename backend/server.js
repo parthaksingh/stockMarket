@@ -5,6 +5,9 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 
 dotenv.config();
+// connect to mongodb
+const connectDB = require('./config/db');
+connectDB();
 
 const authRoutes = require('./routes/authRoutes');
 const stockRoutes = require('./routes/stockRoutes');
@@ -17,9 +20,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// connect to mongodb
-const connectDB = require('./config/db');
-connectDB();
+
 
 // routes
 app.use('/api/auth', authRoutes);
